@@ -2,4 +2,5 @@
 
 export(fcount)
 export(getYear)
+export(plotMovie)
 export(testFun)

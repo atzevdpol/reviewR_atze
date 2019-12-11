@@ -14,4 +14,6 @@ RoxygenNote: 7.0.2
 Imports: 
     forcats,
     dplyr,
-    ggplot2movies
+    ggplot2movies,
+    ggplot2,
+    ggrepel
