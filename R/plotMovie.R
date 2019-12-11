@@ -16,7 +16,7 @@ plotMovie <- function(queryTitle, color = "green"){
     dplyr::filter(.data$year == queryYear) %>% 
     ggplot2::ggplot(ggplot2::aes(.data$length, .data$rating)) +
     ggplot2::geom_point(alpha = 0.4)  +
-    ggplot2::labs(title = queryTitle) +
+    ggplot2::labs(title = queryYear) +
     ggplot2::geom_point(data = ggplot2movies::movies[ggplot2movies::movies$title == queryTitle,],
                color = color) +
     ggrepel::geom_label_repel(ggplot2::aes(label = queryTitle),
