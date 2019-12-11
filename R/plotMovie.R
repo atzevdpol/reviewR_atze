@@ -3,6 +3,8 @@
 #' @param queryTitle title of the movie
 #' @param color color of specified movie in plot
 #'
+#'@importFrom magrittr "%>%"
+#'
 #' @return plot
 #' @export
 #'

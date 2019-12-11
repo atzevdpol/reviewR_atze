@@ -1,13 +1,11 @@
 #' Return the Year of a Movie
 #'
 #' @param title Title of the movie
+#' @importFrom magrittr "%>%"
 #'
 #' @return integer
 #' @export
 #'
-#'
-#' 
-#' 
 getYear <- function(title) {
   title <- dplyr::enquo(title)
   ggplot2movies::movies %>% 
